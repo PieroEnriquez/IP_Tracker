@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IP Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  </head>
+  <body>
+    <main class="container">
+      <form id="form">
+        <label>
+            User's IP
+            <input id="input" type="text" placeholder="Introduce the IP" required>
+            <small>For example: 54.85.132.205</small>
+        </label>
+        <button type="submit" id="submit">
+            Search IP's info
+        </button>
+      </form>
+
+      <div>
+        <pre id="results">
+
+        </pre>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
